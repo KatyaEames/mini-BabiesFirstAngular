@@ -1,5 +1,5 @@
-var app = angular.module('myFriendsList');
+var app = angular.module('friendsList');
 
-app.controller('mainController', function($scope) {
-	$scope.friends = ["Bethany", "Becky", "Sage"];
+app.controller('mainCtrl', function($scope) {
+	$scope.friends = ['Bethany', 'Becky', 'Sage'];
 });
